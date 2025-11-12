@@ -6,6 +6,8 @@ WORKDIR /app
 
 ADD . /app
 
+RUN npm install
+
 LABEL author="mreuy@midi.id"
 
 EXPOSE 3000
