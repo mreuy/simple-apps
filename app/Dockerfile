@@ -8,8 +8,8 @@ ADD . /app
 
 RUN npm install
 
-LABEL author="mreuy@midi.id"
+LABEL author="mreuy@midi.co.id"
 
 EXPOSE 3000
 
-CMD ["npm","start"]
+CMD ["npm", "start"]
